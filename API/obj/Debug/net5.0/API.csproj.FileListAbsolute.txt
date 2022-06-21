@@ -4,7 +4,6 @@
 /Users/kingnania/ShoeStore/API/bin/Debug/net5.0/API.runtimeconfig.json
 /Users/kingnania/ShoeStore/API/bin/Debug/net5.0/API.runtimeconfig.dev.json
 /Users/kingnania/ShoeStore/API/bin/Debug/net5.0/API.dll
-/Users/kingnania/ShoeStore/API/bin/Debug/net5.0/ref/API.dll
 /Users/kingnania/ShoeStore/API/bin/Debug/net5.0/API.pdb
 /Users/kingnania/ShoeStore/API/bin/Debug/net5.0/Microsoft.OpenApi.dll
 /Users/kingnania/ShoeStore/API/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
@@ -18,7 +17,6 @@
 /Users/kingnania/ShoeStore/API/obj/Debug/net5.0/API.MvcApplicationPartsAssemblyInfo.cs
 /Users/kingnania/ShoeStore/API/obj/Debug/net5.0/API.MvcApplicationPartsAssemblyInfo.cache
 /Users/kingnania/ShoeStore/API/obj/Debug/net5.0/staticwebassets/API.StaticWebAssets.Manifest.cache
-/Users/kingnania/ShoeStore/API/obj/Debug/net5.0/staticwebassets/API.StaticWebAssets.xml
 /Users/kingnania/ShoeStore/API/obj/Debug/net5.0/scopedcss/bundle/API.styles.css
 /Users/kingnania/ShoeStore/API/obj/Debug/net5.0/API.RazorTargetAssemblyInfo.cache
 /Users/kingnania/ShoeStore/API/obj/Debug/net5.0/API.csproj.CopyComplete
@@ -54,3 +52,5 @@
 /Users/kingnania/ShoeStore/API/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/kingnania/ShoeStore/API/bin/Debug/net5.0/Humanizer.dll
 /Users/kingnania/ShoeStore/API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/kingnania/ShoeStore/API/bin/Debug/net5.0/API
+/Users/kingnania/ShoeStore/API/obj/Debug/net5.0/refint/API.dll
