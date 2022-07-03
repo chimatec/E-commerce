@@ -4,7 +4,7 @@ import { useState } from "react";
 import Catalog from "../../features/catalog/Catalog";
 import Header from "./header";
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route} from "react-router-dom";
 import Home from "../../features/home/Home";
 import ProductDetails from "../../features/catalog/ProductDetails";
 import AboutUs from "../../features/about/AboutUs";
