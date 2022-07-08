@@ -1,10 +1,9 @@
-import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
-import { Container } from "@mui/system";
+import {Container, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import { useState } from "react";
 import Catalog from "../../features/catalog/Catalog";
 import Header from "./header";
 import React from "react";
-import { Route} from "react-router-dom";
+import { Route, Router} from "react-router-dom";
 import Home from "../../features/home/Home";
 import ProductDetails from "../../features/catalog/ProductDetails";
 import AboutUs from "../../features/about/AboutUs";
@@ -31,11 +30,11 @@ function handleThemeChange() {
       <CssBaseline/>
       <Header darkMode ={darkMode} handleThemeChange ={handleThemeChange}/>
       <Container>
-      <Route exact path='/' component={Home}/>
-      <Route exact path='/catalog' component={Catalog}/>
-      <Route path='/catalog/:id' component={ProductDetails}/>
-      <Route path='/about' component={AboutUs}/>
-      <Route path='/contact' component={ContactUs}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/catalog' component={Catalog}/>
+        <Route path='/catalog/:id' component={ProductDetails}/>
+        <Route path='/about' component={AboutUs}/>
+        <Route path='/contact' component={ContactUs}/>
       </Container>
     </ThemeProvider>
   );

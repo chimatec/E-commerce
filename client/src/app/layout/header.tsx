@@ -18,8 +18,6 @@ const middleLink = [
 const rightLink = [
     {title: 'login', path: '/login'},
     {title: 'register', path: '/register'},
-    
-
 ]
 
 const navistyle ={
@@ -34,7 +32,6 @@ const navistyle ={
     }
 
 }
-
 
 export default function Header({darkMode, handleThemeChange}: Props){
     return(
@@ -52,13 +49,12 @@ export default function Header({darkMode, handleThemeChange}: Props){
                 </Box>
 
                 <List sx ={{display: 'flex'}}>
-                    {middleLink.map(({title, path})=>(
+                    {middleLink.map(({title, path}) =>(
                         <ListItem
                           component={NavLink}
                           to={path}
                           key={path}
                           sx={navistyle}
-                          
                         >
                             {title.toUpperCase()}
                         </ListItem>
@@ -77,16 +73,13 @@ export default function Header({darkMode, handleThemeChange}: Props){
                             to={path}
                             key={path}
                             sx={{color: 'inherit', typography: 'h6'}}
-                            
                             >
                                 {title.toUpperCase()}
                             </ListItem>
                         ))}
                     </List>
                 </Box>
-
             </Toolbar>
-
         </AppBar>
     )
 }
