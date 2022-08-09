@@ -15,7 +15,9 @@ export default function ProductDetails(){
         .catch(error=>console.log(error))
         .finally(() => setLoading(false)); 
     }, [id])
+
     if(loading) return <h3>Loading....</h3>
+
     if(!product) return <h3>Product not found</h3>
 
     return(
@@ -23,7 +25,7 @@ export default function ProductDetails(){
             <Grid item xs={6}> 
             <img src={product.pictureUrl} alt ={product.name} style={{width: '100%'}} />
             </Grid>
-            <Grid>
+            <Grid item xs ={6}>
                 <Typography variant="h3">{product.name}</Typography>
                 <Divider sx={{mb: 2}}/>
                 <Typography variant="h4" color='secondary'>${(product.price / 100).toFixed(2)}</Typography>
